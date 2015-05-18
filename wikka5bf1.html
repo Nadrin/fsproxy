@@ -34,6 +34,9 @@
 <br />
 FSproxy is a small application that runs in the system tray and lets you access GNU/Linux partitions from within Microsoft Windows. The list of detected partitions is always availible at <tt>\\fsproxy</tt> and a single one can easily be mapped to a network drive using address like <tt>\\fsproxy\&lt;partition&gt;</tt>. By default partitions are mounted as read-only but experimental write support can be enabled. FSproxy currently supports: <span class="notes">ext2</span>, <span class="notes">ext3</span>, <span class="notes">ext4</span>, <span class="notes">reiserfs</span>, <span class="notes">jfs</span>, <span class="notes">xfs</span> and few other filesystems. For many of them there is no known Windows driver available (although note that <a class="" href="wikka737e.html?wakka=HowItWorks">FSproxy is not a driver</a> itself).<br />
 <br />
+
+<p><h2>Development has been discontinued.</h2></p><br />
+
 <div class="floatl">
  <h5> News </h5>
 
@@ -43,17 +46,6 @@ FSproxy is a small application that runs in the system tray and lets you access 
 <div class="clear">&nbsp;</div>
 <br />
 <div class="floatr">
- <h4> Support version 2.0 development </h4>
-
-The next major version of FSproxy will feature:<br />
-<ul><li> <strong>Significant performance improvement due to usage of hardware virtualization</strong>
-</li><li> <strong>Support for all major filesystems as well as LVM2 and software RAID partitions</strong>
-</li><li> Running as priviledged Windows service (no more UAC nagging)
-</li><li> Better Windows integration including graphical status monitor
-</li><li> Safe read/write mode and fixed autostart option
-</li><li> Automatic updates
-</li><li> 100% open source code</li></ul>
-<br />
 <h4> Download version 1.0 </h4>
 
 <em>Released 30th July 2009.</em><br />
@@ -64,6 +56,7 @@ The next major version of FSproxy will feature:<br />
 <br />
 <h5> For Developers: </h5>
 
+<ul><li> <strong><a class="ext" href="https://www.github.com/Nadrin/fsproxy">GitHub repository</a></strong></li></ul>
 <ul><li> <strong><a class="ext" href="http://www.siejak.pl/files/fsproxy/fsproxy_agent-1.0rc2-src.zip">FSproxy Agent source (zip package)</a></strong> <a class="ext" href="http://files.masterm.org/fsproxy/fsproxy_agent-1.0rc2-src.zip.md5">md5</a>
 </li><li> <strong><a class="ext" href="http://www.siejak.pl/files/fsproxy/fsproxy-image-1.0rc2.tar.gz">FSproxy server filesystem (tar.gz package)</a></strong> <a class="ext" href="http://files.masterm.org/fsproxy/fsproxy-image-1.0rc2.tar.gz.md5">md5</a>
 </li><li> <strong><a class="ext" href="http://www.siejak.pl/files/fsproxy/fsproxy_kconfig-1.0rc2.conf">FSproxy server kernel configuration</a></strong> <a class="ext" href="http://files.masterm.org/fsproxy/fsproxy_kconfig-1.0rc2.conf.md5">md5</a>
@@ -133,8 +126,8 @@ See <a class="" href="wikka29b4.html?wakka=Troubleshooting">Troubleshooting FAQ<
 FSproxy is (C) Copyright 2009 <a class="ext" href="http://www.siejak.pl/">Micha&#322; Siejak</a>.<br />
 FSproxy is licensed under <a class="ext" href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License version 3</a>.<br />
 <br />
-If you find any bugs or if you have a suggestion of any kind please feel free to <a class="" href="wikkab283.html?wakka=MasterM">contact me</a>.<br />
-<br />
+<strike>If you find any bugs or if you have a suggestion of any kind please feel free to <a class="" href="wikkab283.html?wakka=MasterM">contact me</a>.<br /></strike>
+Development of FSproxy has been discontinued.
 <br />
 <br />
 <br />
